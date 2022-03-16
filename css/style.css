@@ -4,10 +4,18 @@ h1{
     font-family: Verdana, Tahoma, sans-serif;
     
 }
-h2{
-    font-size: 15px;
-    text-align: center;
-    font-family: Verdana, Tahoma, sans-serif;
+body{
+    background-color: #b9e7b9;
+}
+#links{
+    
+}
+#tablecontainer{
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .header{
     background-color: #ffffff;
@@ -15,56 +23,27 @@ h2{
     margin-left: 15%;
     width: 62%;
 }
-a{
-    color:aquamarine ;
-}
-.linklist{
-    list-style-type:none;
-    margin-left: 20%;
-}
-.fileInput{
-    margin-left: 20%;
-}
-
-.visitedbutton{
-    background-color: #E8E8A6; /* Green */
+button{
     border: solid;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    width: 50%;
+    width: 100%;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+.lastvisitedbutton{
+    background-color: #9bbe5a;  
+}
+.visitedbutton{
+    background-color: #E8E8A6;
+   
 }
 .linkbutton {
-    background-color: #219F94; /* Green */
-    border: solid;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    width: 50%;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-  .copybutton {
-    background-color: #F2F5C8;
-    border: solid;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    width: 12%;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+    background-color: #219F94;
+    
+}
