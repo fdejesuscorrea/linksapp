@@ -10,7 +10,7 @@ body{
 #links{
     
 }
-#tablecontainer{
+#tablecontainer, #headercontainer{
     background-color: white;
     border-radius: 25px;
     padding: 5px;
